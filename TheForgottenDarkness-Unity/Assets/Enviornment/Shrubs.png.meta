@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 298dc3d0832c1b244ab67d45206b85fe
+guid: 1c153e7e2e6f1d347a7fe34b056a5f78
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Animations_v1_0
+      name: Shrubs_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 832
-        width: 76
-        height: 188
+        x: 2
+        y: 141
+        width: 13
+        height: 11
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d142166603448840b1b2298de36a3b8
-      internalID: 245150084
+      spriteID: da2c86afef6154b498d475703d485c61
+      internalID: 265695369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animations_v1_1
+      name: Shrubs_1
       rect:
         serializedVersion: 2
-        x: 84
-        y: 832
-        width: 76
-        height: 188
+        x: 16
+        y: 141
+        width: 13
+        height: 11
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3c9bef9524fff94486de6682cf90e15
-      internalID: -1432086052
+      spriteID: 8c5b495a05425cf4e8b69369c5b75b7c
+      internalID: -137571902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animations_v1_2
+      name: Shrubs_2
       rect:
         serializedVersion: 2
-        x: 164
-        y: 832
-        width: 76
-        height: 188
+        x: 30
+        y: 141
+        width: 13
+        height: 11
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12bc79179ea7705429bd2f2cabc57dcb
-      internalID: -237775212
+      spriteID: 9be79e79371d4744599609a79713a30b
+      internalID: 167874678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animations_v1_3
+      name: Shrubs_3
       rect:
         serializedVersion: 2
-        x: 244
-        y: 832
-        width: 76
-        height: 188
+        x: 44
+        y: 141
+        width: 13
+        height: 11
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 828d0039c3fefae4f91f6784d81056c8
-      internalID: 1361260274
+      spriteID: 04363827f9ff23c419105923c9c5f033
+      internalID: 844990918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animations_v1_4
+      name: Shrubs_4
       rect:
         serializedVersion: 2
-        x: 324
-        y: 832
-        width: 76
-        height: 188
+        x: 58
+        y: 141
+        width: 13
+        height: 11
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c700923c4e9c8f498ce9f0e4b901ca1
-      internalID: 485216387
+      spriteID: c8244a33889212d49a398c8efac0b6af
+      internalID: 2088670566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animations_v1_5
+      name: Shrubs_5
       rect:
         serializedVersion: 2
-        x: 404
-        y: 832
-        width: 76
-        height: 188
+        x: 72
+        y: 141
+        width: 13
+        height: 11
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c19218eca1596e49a3cddbe59461f73
-      internalID: 2044625860
+      spriteID: 1fb238b28e779d345941b2b9631b6c9e
+      internalID: -1683943870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animations_v1_6
+      name: Shrubs_small
       rect:
         serializedVersion: 2
-        x: 52
-        y: 608
-        width: 56
-        height: 188
+        x: 3
+        y: 127
+        width: 9
+        height: 7
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58a86a0e65730d441959fe5061609bb6
-      internalID: 1313156836
+      spriteID: 861931fe0e361f24bb6575fbd79cd744
+      internalID: -806897814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animations_v1_7
+      name: Shrubs_fern
       rect:
         serializedVersion: 2
-        x: 124
-        y: 608
-        width: 56
-        height: 188
+        x: 13
+        y: 127
+        width: 11
+        height: 12
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,29 +271,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da21c3d98c8647a4db60a3520d0979bc
-      internalID: 2080483360
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Animations_v1_8
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 608
-        width: 56
-        height: 188
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2656e9b7e7f4b914ebda6e58baf2659a
-      internalID: 173600297
+      spriteID: dad479bc713f03346a9fdf0e3801d598
+      internalID: -777448861
       vertices: []
       indices: 
       edges: []
@@ -309,16 +288,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Animations_v1_0: 245150084
-      Animations_v1_1: -1432086052
-      Animations_v1_2: -237775212
-      Animations_v1_3: 1361260274
-      Animations_v1_4: 485216387
-      Animations_v1_5: 2044625860
-      Animations_v1_6: 1313156836
-      Animations_v1_7: 2080483360
-      Animations_v1_8: 173600297
-      Animations_v1_9: -240650629
+      Shrubs_0: 265695369
+      Shrubs_1: -137571902
+      Shrubs_2: 167874678
+      Shrubs_3: 844990918
+      Shrubs_4: 2088670566
+      Shrubs_5: -1683943870
+      Shrubs_fern: -777448861
+      Shrubs_small: -806897814
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

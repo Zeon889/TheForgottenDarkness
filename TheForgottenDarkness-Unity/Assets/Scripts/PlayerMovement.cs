@@ -11,6 +11,9 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed;
     public float runSpeed;
 
+    public float horizontalInput;
+    public float verticalInput;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,24 +25,38 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //move horizontally
+        horizontalInput = Input.GetAxis("Horizontal");
+        verticalInput = Input.GetAxis("Vertical");
+
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            playerRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * runSpeed, playerRB.velocity.y);
+            transform.Translate(Vector3.forward * Time.deltaTime * verticalInput * runSpeed);
+            transform.Translate(Vector3.right * Time.deltaTime * horizontalInput * runSpeed);
         } else
         {
-            playerRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * moveSpeed, playerRB.velocity.y);
+            transform.Translate(Vector3.forward * Time.deltaTime * verticalInput * moveSpeed);
+            transform.Translate(Vector3.right * Time.deltaTime * horizontalInput * moveSpeed);
         }
+        
 
-        //move vertically 
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            playerRB.velocity = new Vector2(playerRB.velocity.x, Input.GetAxisRaw("Vertical") * runSpeed);
-        }
-        else
-        {
-            playerRB.velocity = new Vector2(playerRB.velocity.x, Input.GetAxisRaw("Vertical") * moveSpeed);
-        }
+        ////move horizontally
+        //if (Input.GetKey(KeyCode.LeftShift))
+        //{
+        //    playerRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * runSpeed, playerRB.velocity.y);
+        //} else
+        //{
+        //    playerRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * moveSpeed, playerRB.velocity.y);
+        //}
+
+        ////move vertically 
+        //if (Input.GetKey(KeyCode.LeftShift))
+        //{
+        //    playerRB.velocity = new Vector3(playerRB.velocity.z, Input.GetAxisRaw("Vertical") * runSpeed);
+        //}
+        //else
+        //{
+        //    playerRB.velocity = new Vector3(playerRB.velocity.z, Input.GetAxisRaw("Vertical") * moveSpeed);
+        //}
 
         //flip player
         if (Input.GetAxisRaw("Horizontal") > 0)
